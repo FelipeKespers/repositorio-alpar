@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+h1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px
+}
+.biografia {
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    border-radius: 16px;
+    background-color: mediumslateblue;
+    margin-top: 17px;
+}
+
+.metas {
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    border-radius: 16px;
+    background-color: mediumslateblue;
+    margin-top: 17px;
+}
+
+.jpeg {
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    height: 400px;
+    margin-top: 10px;
+}
+img{
+    border-radius: 50%;
+}
+h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    color: white;
+    margin: 7px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
