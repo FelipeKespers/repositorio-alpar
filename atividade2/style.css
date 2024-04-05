@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: burlywood;
+    text-align: center;
+    padding: 2rem;
+    font-size: 32px;
+}
+.header p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-image: url(background_cardapio.jpg);
+}
+.cardapio{
+    background-image: url(Foto.cafe.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    border-radius: 20px;
+    padding: 3rem;
+    border: 2px rgb(255, 255, 255) solid;
+    box-shadow: 7px 7px 7px rgb(255, 255, 255);
+}
+.horario{
+    background-image: url(background_cardapio.jpg);
+    display: flex;
+    justify-content: center;
+}
+.rodape{
+    background-color: burlywood;
+    text-align: center;
+    padding: 7px;
+    margin-top: 10px;
+}
