@@ -5,16 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background-image: url(./background_index.avif);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .Atividades {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: 10px;
+        }
+    </style>
 
 
 </head>
 
 <body>
     <h1> Atividades do Rocket Program - HTML </h1>
-    <a href="./atividade1/"><p>Atividade 1</p></a>
-    <a href="./atividade2/"><p>Atividade 2</p></a>
-    <a href="./atividade3/"><p>Atividade 3</p></a>
-    <a href="./atividade4/"><p>Atividade 4</p></a>
+    <div class="Atividades">
+        <a href="./atividade1/">
+            <p>Atividade 1</p>
+        </a>
+        <a href="./atividade2/">
+            <p>Atividade 2</p>
+        </a>
+        <a href="./atividade3/">
+            <p>Atividade 3</p>
+        </a>
+        <a href="./atividade4/">
+            <p>Atividade 4</p>
+        </a>
+    </div>
 </body>
 
 </html>
