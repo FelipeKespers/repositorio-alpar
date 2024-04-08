@@ -1,24 +1,27 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: aqua;
 }
-form{
+
+form {
     background-color: aliceblue;
     width: 400px;
     padding: 32px;
 }
-p{
+
+p {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
     font-family: 'Courier New', Courier, monospace;
     width: 80%;
-    
+
 }
-input{
+
+input {
     display: block;
     width: 80%;
     margin: 8px auto;
@@ -27,18 +30,29 @@ input{
     border-radius: 12px;
     border: 2px solid bisque;
 }
-button{
+
+button {
     display: block;
     width: 80%;
     margin: 16px auto;
     padding: 8px;
     background-color: lawngreen;
 }
-h1{
+
+h1 {
     background-color: azure;
     margin-top: 0;
 }
-label{
+
+label {
     display: block;
     width: 100%;
+}
+
+@media (max-width: 487px) {
+    form {
+        max-width: 390px;
+        padding: 16px;
+        margin: 10px;
+    }
 }
