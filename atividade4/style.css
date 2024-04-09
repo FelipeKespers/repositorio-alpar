@@ -1,9 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Arial, sans-serif;
     background-color: mediumpurple;
     line-height: 1.6;
@@ -13,18 +14,22 @@ body{
     background-size: cover;
     background-position: center;
 }
+
 header {
     background-color: gray;
     color: white;
     padding: 20px;
     text-align: center;
 }
-header h1{
+
+header h1 {
     margin-bottom: 10px;
 }
-header p{
+
+header p {
     font-size: 20px;
 }
+
 footer {
     background-color: gray;
     color: white;
@@ -35,30 +40,69 @@ footer {
 
 footer p {
     margin-top: 20px;
-} 
-.container{
+}
+
+.container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 10px;
-}   
-.card{
+}
+
+.card {
     width: 300px;
     height: 200px;
     background-color: bisque;
     border-radius: 16px;
     background-color: rgb(53, 62, 84);
 }
-.video{
+
+.video {
     display: flex;
     justify-content: center;
 }
-h2{
+
+h2 {
     color: black;
     text-align: center;
 }
-audio{
+
+audio {
     margin-top: 20px;
     border-radius: 10px;
-    
+
+}
+
+@media (max-width: 617px) {
+    .container {
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 200px;
+        height: 160px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    audio {
+        width: 200px
+    }
+}
+
+@media (max-width: 500px) {
+    .video video{
+        width: 90vw;
+    }
+    .headder p{
+        font-size: 10px;
+    }
 }
