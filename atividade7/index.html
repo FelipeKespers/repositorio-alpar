@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Iluminação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>
+        Sistema de Iluminação
+    </h1>
+    <div class="align">
+        <div class="container">
+            <div class="sala-buttons">
+                <h2>
+                    Sala
+                </h2>
+                <button id="on-btnSala" onclick="ligarDesligar(onbtnSala, offbtnSala, true)">Ligar</button>
+                <button id="off-btnSala" onclick="ligarDesligar(offbtnSala, onbtnSala, false)">Desligar</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="cozinha-buttons">
+                <h2>
+                    Cozinha
+                </h2>
+                <button id="on-btnCozinha" onclick="ligarDesligar(onbtnCozinha, offbtnCozinha, true)">Ligar</button>
+                <button id="off-btnCozinha" onclick="ligarDesligar(offbtnCozinha, onbtnCozinha, false)">Desligar</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="quarto-buttons">
+                <h2>
+                    Quarto
+                </h2>
+                <button id="on-btnQuarto" onclick="ligarDesligar(onbtnQuarto, offbtnQuarto, true)">Ligar</button>
+                <button id="off-btnQuarto" onclick="ligarDesligar(offbtnQuarto, onbtnQuarto, false)">Desligar</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="banheiro-buttons">
+                <h2>
+                    Banheiro
+                </h2>
+                <button id="on-btnBanheiro" onclick="ligarDesligar(onbtnBanheiro, offbtnBanheiro, true)">Ligar</button>
+                <button id="off-btnBanheiro" onclick="ligarDesligar(offbtnBanheiro, onbtnBanheiro, false)">Desligar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="iluminacao.js"></script>
+</body>
+
+</html>
