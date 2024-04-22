@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+main{
+    width: 100%;
+    position: absolute;
+    height: 80%;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    background-image: url('../../conjunto-de-background8.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    width: 50vh;
+    box-shadow: 4px 7px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    height: 88%;
+}
+
+#weather-info{
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+p{
+    font-size: 15px;
+}
